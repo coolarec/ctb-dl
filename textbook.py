@@ -23,7 +23,7 @@ def get_filename(contentId):
 file_name=get_filename(contentId)
 
 #下载pdf文件，默认下载在当前文件夹下
-download_url=f"https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets/{contentId}.pkg/pdf.pdf"
+download_url=f"https://r1-ndr.ykt.cbern.com.cn/edu_product/esp/assets_document/{contentId}.pkg/pdf.pdf"
 f=requests.get(download_url)
 print(download_url)
 with open (f"{file_name}.pdf","wb") as file1:
