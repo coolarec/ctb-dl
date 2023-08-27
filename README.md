@@ -2,7 +2,8 @@
 
 
 ## 原理：
-通过网页链接获取到contentId，并获取到下载链接进行下载pdf格式可编辑课本
+通过网页链接获取到contentId，并获取到下载链接进行下载pdf格式可编辑课本  
+
 部分功能代码（获取文件原始名）借鉴于[tchMaterial-parser](https://github.com/happycola233/tchMaterial-parser)大佬
 特此鸣谢
 
